@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Freizeit";
+  src: url(../fonts/Freizeit/FreizeitTrial-Light.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Freizeit";
+  src: url(../fonts/Freizeit/FreizeitTrial-Regular.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Freizeit";
+  src: url(../fonts/Freizeit/FreizeitTrial-Medium.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Freizeit";
+  src: url(../fonts/Freizeit/FreizeitTrial-Bold.otf);
+  font-weight: 400;
+}
+
+.padding-top-24 {
+  padding-top: 24px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-top-12 {
+  padding-top: 12px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.padding-sides-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+body {
+    font-family: Freizeit;
+    font-weight: ;
+    color: var(--gris);
+ }
+
+ p{
+  margin: 0;
+  font-family: "Freizeit";
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: .5px;
+  line-height: 20px;
+  }
+
+.subtitulo {
+  font-family: "Freizeit";
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 100%;
+
+  color: var(--rosa);
+}
+
+.antetitulo-CTA {
+  font-family: "Freizeit";
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 0px;
+  line-height: 100%;
+  text-align: left;
+
+  color: var(--blanco);
+}
+
+.destacado-CTA {
+  font-family: "Freizeit";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 100%;
+  text-align: left;
+
+  color: var(--blanco);
+}
