@@ -10,8 +10,7 @@
 body {
   background-color: var(--blanco);
   margin: 0;
-  overflow: hidden;
-  witdh: 100%;
+  width: 100%;
 }
 
 #nav-wrap {
