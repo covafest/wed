@@ -6,13 +6,11 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>A&C | ¡Que me casooo!</title>
             <!-- CSS -->
-            <link rel="stylesheet" href="styles/colors.css">
             <link rel="stylesheet" href="styles/styles.css">
             <link rel="stylesheet" href="styles/animaciones.css">
             <!-- JS 
             <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.16.2/dist/tsparticles.min.js" integrity="sha256-2Sly/Hf9UP7YBu6LEPpn/6rxMZR5EeGq89mBa4G5+YA=" crossorigin="anonymous"></script>
             <script src="app.js"></script>-->
-            <!-- TIPOGRAFÍAS -->
         </head>
         <body>
             <nav>
@@ -22,7 +20,7 @@
               </ul>
             </nav>
 
-            <div id="hero" class="padding-top-60 padding-sides-32">
+            <div id="hero" class="padding-sides-32">
               <div id="hero-img-wrap"><img src="img/hero-img.svg"></div>
               <div class="padding-top-12"><p class="subtitulo align-center">15 | abril | 23 – Madrid </p></div>
               <div class="padding-top-20"><p class="align-center">Nos hace mucha ilusión que vengas a celebrarlo con nosotras.</p></div>
@@ -44,35 +42,97 @@
               </div>
             </div>
           <article id="horas-sitios">
-            <h2 class="padding-top-60 align-center">Horas&<br>sitios</h2>
-            <section id="ceremonia" class="info-card">
-              <h3 class="align-center padding-top-20 padding-sides-32">Ceremonia</h3>
-              <div class="info-card-img">
-                <img src="img/gifs/ceremonia-gif.gif">
-              </div> 
-              <div class="parrafo-card padding-top-20 padding-sides-32">
-                <p class="align-center parrafo-info-card">Nos casamos en el <span class="p-destacado">Centro Cultural Casa del Reloj</span>, en el <span clas="destacado">Matadero de Madrid</span>.</p>
-                <p class="align-center padding-top-12">Vente sobre las 12:00 y hazte unas fotos con nosotras.</p>
-              </div>      
-              <div class="card-info-detalles padding-top-20 padding-sides-32">
-                <div class="text-icon-wrap">
-                  <img class="card-info-icono" src="img/icon-reloj.svg">
-                  <p class="align-center"><span class="destacado">13.00h.</span></p>
+            <div id="article-titulo" class="align-center">
+              <h2>Horas&<br>sitios</h2>
+              <div id="separador-wrap" class="padding-top-20 "><div id="separador"></div></div>
+            </div>  
+            
+            <section id="info-card" class="ceremonia">
+              <div id="info-card-titulo" class="align-center padding-sides-32 padding-top-28"><h3>Ceremonia</h3></div>  
+              <div id="card-info-detalles" class="padding-top-12">
+                
+                <div id="info-card-img-wrap" class="padding-top-20"><img id="info-card-img" src="img/gifs/ceremonia-gif.gif"></div>
+
+                <div id="info-card-parrafo" class="padding-top-20 padding-sides-32">
+                  <p class="align-center">Nos casamos en el <span class="p-destacado">Centro Cultural Casa del Reloj</span>, en el <span clas="destacado">Matadero de Madrid</span></p>
+                  <p class="align-center padding-top-12">Vente sobre las 12:00 y hazte unas fotos con nosotras.</p>
                 </div> 
-                <div class="text-icon-wrap padding-top-12">
-                  <img class="card-info-icono" src="img/icon-pin.svg">
-                  <p class="align-center"><span class="destacado">Paseo de la Chopera, 6-10</span></p>
-                  <p class="align-center">(Metro Legazpi)</p>
+
+                <div id="text-icon-wrap" class="padding-top-20">
+                  <img id="icon-wrap" src="img/icon-reloj.svg">
+                  <p id="text-wrap" class="align-center"><span class="destacado">13.00h.</span></p>
+                </div> 
+
+                <div id="text-icon-wrap" class="padding-top-12">
+                  <img id="icon-wrap" src="img/icon-pin.svg">
+                  <div id="text-wrap"><p class="align-center"><span class="destacado">Paseo de la Chopera, 6-10</span></p></div>
+                  <div id="text-wrap"><p class="align-center">(Metro Legazpi)</p></div>
                 </div>
-              </div>
-              <div class="card-info-map padding-top-20">
-                <img src="img/mapas/ceremonia.png">
+                <div class="padding-top-20"><img id="card-info-map" src="img/mapas/ceremonia.png"></div>
               </div>
             </section>
 
-            <section id="comida" class="info-card"></section>
-            <section id="fiesta" class="info-card"></section>
+            <div id="separador-wrap" class="padding-top-20 "><div id="separador"></div></div>            
+            
+            <section id="info-card" class="comida">
+              <div id="info-card-titulo" class="align-center padding-sides-32 padding-top-28"><h3>Comida</h3></div>  
+              <div id="card-info-detalles" class="padding-top-12">
+                <div id="info-card-img-wrap" class="padding-top-20"><img id="info-card-img" src="img/gifs/comida-gif.gif"></div>
+
+                <div id="info-card-parrafo" class="padding-sides-32 padding-top-20">
+                  <p class="align-center">Comeremos en <span class="p-destacado">Vega Álamo</span>, cerca de Plaza de España.</span></p>
+                  <p class="align-center padding-top-12"><span class="p-destacado">¿Alergias alimentarias?</span>Escríbenos y te pasamos el menú para adaptarlo si hace falta.</p>
+                </div> 
+
+                <div id="text-icon-wrap" class="padding-top-20">
+                  <img id="icon-wrap" src="img/icon-reloj.svg">
+                  <p id="text-wrap" class="align-center"><span class="destacado">14.30h.</span></p>
+                </div> 
+
+                <div id="text-icon-wrap" class="padding-top-12">
+                  <img id="icon-wrap" src="img/icon-pin.svg">
+                  <div id="text-wrap"><p class="align-center"><span class="destacado">Calle del Álamo,3</span></p></div>
+                  <div id="text-wrap"><p class="align-center">(Metro Plaza de España)</p></div>
+                </div>
+                <div class="padding-top-20"><img id="card-info-map" src="img/mapas/comida.png"></div>
+              </div>
+            </section>
+            
+            <div id="separador-wrap" class="padding-top-20 "><div id="separador"></div></div>            
+
+            <section id="info-card" class="fiesta">
+              <div id="info-card-titulo" class="align-center padding-sides-32 padding-top-28"><h3>Fiesta</h3></div>  
+              <div id="card-info-detalles" class="padding-top-12">
+                <div id="info-card-img-wrap" class="padding-top-20"><img id="info-card-img" src="img/gifs/fiesta-gif.gif"></div>
+
+                <div id="info-card-parrafo" class="padding-sides-32 padding-top-20">
+                  <p class="align-center">Hemos alquilado un bar en Malasaña, el<span class="p-destacado">4 Latas</span>.</p>
+                  <p class="align-center padding-top-12"><span class="p-destacado">¿Nos ayudas con la música?</span>Puedes incluir canciones en esta lista de Spotify.</p></p>
+                </div> 
+
+                <div id="spotify" class="padding-sides-32 padding-top-20">
+                  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5xgXIl0fHeho10DEBsDcEc?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+                <div id="text-icon-wrap" class="padding-top-20">
+                  <img id="icon-wrap" src="img/icon-reloj.svg">
+                  <p id="text-wrap" class="align-center"><span class="destacado">20.00h.</span></p>
+                </div> 
+
+                <div id="text-icon-wrap" class="padding-top-12">
+                  <img id="icon-wrap" src="img/icon-pin.svg">
+                  <div id="text-wrap"><p class="align-center"><span class="destacado">Calle de La Palma, 66</span></p></div>
+                  <div id="text-wrap"><p class="align-center">(10 min. a pie desde el restaurante)</p></div>
+                </div>
+                <div class="padding-top-20"><img id="card-info-map" src="img/mapas/fiesta.png"></div>
+              </div>
+            </section>
           </article>     
         </body>
-        <footer></footer>
+        <footer>
+            <ul id="footer-wrap">
+              <li id="footer-item"><a href="#"><img src="img/nav-logo-blue.svg"></a></li>
+              <li id="footer-item"><div class=""><p class="subtitulo">15 | abril | 23 – Madrid</p></div></li>
+            </ul>
+        </footer>
 </html>
