@@ -109,7 +109,7 @@
   #CTA:hover{
     background-color: var(--azul);
     cursor:pointer;
-    transition: .8s;
+    transition: .6s;
   }
 
 
@@ -163,7 +163,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 183px;
+  top: 185px;
   z-index: 7;
 }
 
