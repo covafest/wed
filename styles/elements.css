@@ -132,7 +132,7 @@
   position:sticky;
   top: 80px;
   z-index: 10;
-  padding-bottom: 12px;
+  padding-bottom: 13px;
 }
 
 /* SECTION */
@@ -140,18 +140,19 @@
 #separador {
   background-color: var(--azul);
   width: 50%;
+  height: 1px;
 }
 
 #separador-wrap {
   background-color: var(--blanco);
   display: flex;
   justify-content: center;
-  height: 1px;
+  height: 2px;
 }
 
 .separador-wrap-sticky{
   position:sticky;
-  top: 184px;
+  top: 185px;
   z-index: 9;
 }
 
