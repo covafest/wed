@@ -141,6 +141,7 @@
   background-color: var(--rosa);
   width: 50%;
   height: 1px;
+  border: solid;
 }
 
 #separador-wrap {
@@ -148,6 +149,7 @@
   height: 10px;
   justify-content:center;
   background-color: var(--blanco);
+
 }
 
 .separador-wrap-sticky{
@@ -155,6 +157,8 @@
   position:sticky;
   top: 185px;
   z-index: 9;
+
+
 }
 
 #card-title{
