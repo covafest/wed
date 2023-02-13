@@ -138,10 +138,9 @@
 /* SECTION */
 
 #separador {
-  background-color: var(--rosa);
+  background-color: var(--azul);
   width: 50%;
   height: 1px;
-  border: solid;
 }
 
 #separador-wrap {
@@ -156,7 +155,7 @@
   display: flex;
   position:sticky;
   top: 185px;
-  z-index: 20;
+  z-index: 10;
 
 
 }
