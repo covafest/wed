@@ -138,21 +138,20 @@
 /* SECTION */
 
 #separador {
-  background-color: var(--rosa);
+  background-color: var(--azul);
   width: 50%;
-  height: 4px;
+  height: 1px;
 }
 
 #separador-wrap {
   display: flex;
-
+  height: 2px;
   justify-content:center;
   background-color: var(--blanco);
 }
 
 .separador-wrap-sticky{
   display: flex;
-
   position:sticky;
   top: 185px;
   z-index: 9;
@@ -166,7 +165,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 186px;
+  top: 187px;
   z-index: 7;
 }
 
