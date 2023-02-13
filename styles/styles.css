@@ -1,0 +1,138 @@
+/*PADDING-MOVIL*/
+
+.padding-top-100 {
+  padding-top: 100px;
+}
+.padding-top-28 {
+  padding-top: 24px;
+}
+
+.padding-top-24 {
+  padding-top: 24px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-top-12 {
+  padding-top: 12px;
+}
+
+.padding-top-8 {
+  padding-top: 8px;
+}
+
+.padding-movil {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/*TEXT-ALIGN-MOVIL*/
+
+.align-center {
+  text-align: center;
+}
+
+/*ESTILOS GENERALES*/
+
+body {
+background-color: var(--blanco);
+width:            100%;
+margin:           0;
+padding:          0;
+font-family:      Freizeit;
+color:            var(--gris);
+}
+
+/*ESTILOS DE TEXTO*/
+
+p{
+margin:           0;
+padding:          0;
+font-family:      "Freizeit";
+font-size:        16px;
+font-weight:      200;
+line-height:      22px;
+letter-spacing:   .5px;
+}
+
+h2 {
+font-family:      "Gela";
+font-size:        36px;
+font-weight:      400;
+line-height:      100%;
+letter-spacing:   .8px;
+background:        linear-gradient(0deg, #FF4371 0%, #3066BE 100%);
+-webkit-background-clip:  text;
+-webkit-text-fill-color:  transparent;
+background-clip:          text;
+
+margin:            0;
+padding:           0;
+}
+
+h3 {
+color:            var(--gris);
+font-family:      "Freizeit";
+font-size:        23px;
+font-weight:      300;
+line-height:      100%;
+letter-spacing:   .4px;
+
+margin:           0;
+padding:          0;
+}
+
+ul {
+margin:           0;
+padding:          0;
+list-style:       none;
+}
+
+.subtitulo {
+color:            var(--rosa);
+font-family:      "Freizeit";
+font-size:        16px;
+font-weight:      200;
+line-height:      100%;
+letter-spacing:   0px;
+}
+
+.antetitulo-CTA {
+color:            var(--blanco);
+font-family:      "Freizeit";
+font-size:        14px;
+font-weight:      200;
+line-height:      100%;
+letter-spacing:   0px;
+text-align:       left;
+}
+
+.destacado-CTA {
+color:            var(--blanco);
+font-family:      "Freizeit";
+font-size:        20px;
+font-weight:      400;
+line-height:      100%;
+letter-spacing:   0px;
+text-align:       left;
+}
+
+.destacado {
+font-weight:      300;
+}
+
+a{
+  color: var(--azul)
+}
+
+.navegacion a{
+  color: var(--gris);
+  text-decoration: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
