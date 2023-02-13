@@ -145,7 +145,7 @@
 
 #separador-wrap {
   display: flex;
-  height: 2px;
+  height: 10px;
   justify-content:center;
   background-color: var(--blanco);
 }
