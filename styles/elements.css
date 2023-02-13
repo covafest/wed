@@ -161,13 +161,13 @@
   background-color: var(--blanco);
 }
 
-/*.card-title-sticky{
+.card-title-sticky{
   padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 187px;
+  top: 190px;
   z-index: 7;
-}*/
+}
 
 #card-img{
   background-color: var(--blanco);
