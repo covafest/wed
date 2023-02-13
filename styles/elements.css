@@ -144,13 +144,15 @@
 }
 
 #separador-wrap {
-  background-color: var(--blanco);
   display: flex;
-  justify-content: center;
-  height: 0px;
+
+  justify-content:center;
+  background-color: var(--blanco);
 }
 
 .separador-wrap-sticky{
+  display: flex;
+
   position:sticky;
   top: 185px;
   z-index: 9;
@@ -164,7 +166,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 183px;
+  top: 186px;
   z-index: 7;
 }
 
