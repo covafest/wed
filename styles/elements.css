@@ -155,7 +155,7 @@
 .separador-wrap-sticky{
   display: flex;
   position:sticky;
-  top: 190px;
+  top: 200px;
   z-index: 8;
 
 
@@ -169,7 +169,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 187px;
+  top: 202px;
   z-index: 7;
 }
 
