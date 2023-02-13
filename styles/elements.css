@@ -147,7 +147,7 @@
   background-color: var(--blanco);
   display: flex;
   justify-content: center;
-  height: 2px;
+  height: 0px;
 }
 
 .separador-wrap-sticky{
@@ -164,7 +164,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 185px;
+  top: 183px;
   z-index: 7;
 }
 
