@@ -138,9 +138,9 @@
 /* SECTION */
 
 #separador {
-  background-color: var(--azul);
+  background-color: var(--rosa);
   width: 50%;
-  height: 1px;
+  height: 4px;
 }
 
 #separador-wrap {
