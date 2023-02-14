@@ -1,60 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-        <head>
-            <!-- METADATOS -->  
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <head> 
-            </head> 
-            <title>A&C | ¡Que me casooo!</title>
-            <!-- CSS -->
-            <style>*{position: relative;margin:0;padding:0;} html,body,iframe{border-radius:0 !important;}</style> 
-            <link rel="stylesheet" href="styles/styles.css">
-            <link rel="stylesheet" href="styles/fonts-colors.css">
-            <link rel="stylesheet" href="styles/elements.css">
-            <link rel="stylesheet" href="styles/animaciones.css">
-            <script src="//embed.typeform.com/next/embed.js"></script>
-            <!-- JS -->
-            <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-            <script type="text/javascript" src="script.js"></script>
-            <script type='text/javascript' src='scripts/script.js'></script>
-        </head>
-        <body class="align-center">
-          <!-- NAV-->
 
-          <nav id="nav-movil-wrap">
-            <ul id="nav-wrap">
-              <li id="nav-item-1"><a href="index.html"><img src="img/nav-logo-blue.svg"></a></li>
-              <li id="nav-item-2"><a href="#"><img src="img/icon-menu-grey.svg"></a></li>
-            </ul>
-          </nav>
-        
-          <nav id="menu-desplegado" class="">
-            <ul id="nav-wrap">
-              <li id="nav-item-2" class="cerrar"><a href="#"><img src="img/icon-close-grey.svg"></a></li>
-            </ul>
-        
-            <ul id="menu-list-enlaces" class="padding-movil">
-              <li><a href="horas-sitios.html">Sitios&Horas</a></li>
-              <li><a href="confirmacion.html">Confirmar asistencia</a></li>
-              <li><a href="preguntas.html">Preguntas</a></li>
-              <li><a href="no-puedo-ir.html">No puedo ir</a></li>
-            </ul>
-          </nav>
-          <div data-tf-widget="U23OXcX0" data-tf-opacity="100" data-tf-iframe-props="title=C&A 15-04-23 | Madrid" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
-        <!--ARRIBA -->
-        <div id="boton-navegacion-wrap" class="volver navegacion">
-          <div class="volver">
-            <img id="boton-navegacion-texto" class="" src="img/icon-flecha-izquierda-black.svg">
-            <a href="index.html" id="boton-navegacion-texto"><p class="">Volver</p></a>
-          </div>
-        </div>
-        </body>
-        <!--FOOTER-->
-        <footer id="footer-movil-wrap">
-          <ul id="footer-wrap">
-            <li id="footer-item"><a href="#"><img src="img/nav-logo-blanco.svg"></a></li>
-            <li id="footer-item"><div class=""><p class="subtitulo">15 | abril | 23 – Madrid</p></div></li>
-          </ul>
-        </footer>
+<head>
+<!-- METADATOS -->  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A&C | ¡Que me casooo!</title>
+
+<!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/fonts-colors.css">
+  <link rel="stylesheet" href="styles/elements.css">
+  <style>iframe{border-radius:0 !important;}</style> 
+
+
+<!-- JS -->
+  <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type='text/javascript' src='scripts/script.js'></script>
+</head>
+
+<body class="align-center">
+
+  <!-- NAV CERRADO-->
+  <nav id="nav-movil-wrap">
+    <ul id="nav-wrap">
+      <li id="nav-item-1"><a href="index.html"><img src="img/nav-logo-blue.svg"></a></li>
+      <li id="nav-item-2"><div id="menu-icono"><span></span><span></span><span></span><span></span></div></li>
+    </ul>
+  </nav>
+
+  <!-- NAV DESPLEGADO-->
+  <nav id="menu-desplegado" class="">
+    <ul id="menu-list-enlaces" class="padding-movil">
+      <li><a href="horas-sitios.html">Sitios&Horas</a></li>
+      <li><hr></li>
+      <li><a href="preguntas.html">Preguntas que no <br>os dejan dormir</a></li>
+      <li><hr></li>
+      <li><a href="confirmacion.html">Confirmar asistencia</a></li>
+    </ul>
+   </nav>
+
+  <!-- FORMULARIO-->  
+  <div id="form-container" class="padding-movil">
+    <div data-tf-widget="U23OXcX0" data-tf-opacity="100" data-tf-iframe-props="title=C&A 15-04-23 | Madrid" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+  
+
+  <!--VOLVER-->
+  <div id="boton-navegacion-wrap" class="volver navegacion">
+    <div class="volver">
+      <img id="boton-navegacion-texto" src="img/icon-flecha-izquierda-black.svg">
+      <p>Volver</p>
+    </div>
+  </div>
+</div>
+</body>
+
+<!--FOOTER-->
+<footer id="footer-movil-wrap" class="fixed">
+  <ul id="footer-wrap">
+    <li id="footer-item"><a href="#"><img src="img/nav-logo-blanco.svg"></a></li>
+    <li id="footer-item"><div class=""><p class="subtitulo">15 | abril | 23 – Madrid</p></div></li>
+  </ul>
+</footer>
+
 </html>
