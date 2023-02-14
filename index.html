@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-        <head>
-            <!-- METADATOS -->  
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>A&C | ¡Que me casooo!</title>
-            <!-- CSS -->
-            <link rel="stylesheet" href="styles/styles.css">
-            <link rel="stylesheet" href="styles/fonts-colors.css">
-            <link rel="stylesheet" href="styles/elements.css">
-            <link rel="stylesheet" href="styles/animaciones.css">
-            <!-- JS -->
-            <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-            <script type="text/javascript" src="script.js"></script>
 
-            <script type='text/javascript' src='scripts/script.js'></script>
-        </head>
-        <body class="align-center">
-          <!-- NAV-->
+<head>
+<!-- METADATOS -->  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A&C | ¡Que me casooo!</title>
 
-          <nav id="nav-movil-wrap">
-            <ul id="nav-wrap">
-              <li id="nav-item-1"><a href="#"><img src="img/nav-logo-blue.svg"></a></li>
-              <li id="nav-item-2"><a href="#"><img src="img/icon-menu-grey.svg"></a></li>
-            </ul>
-          </nav>
-        
-          <nav id="menu-desplegado" class="">
-            <ul id="nav-wrap">
-              <li id="nav-item-2" class="cerrar"><a href="#"><img src="img/icon-close-grey.svg"></a></li>
-            </ul>
-        
-            <ul id="menu-list-enlaces" class="padding-movil">
-              <li><a href="horas-sitios.html">Sitios&Horas</a></li>
-              <li><a href="confirmacion.html">Confirmar asistencia</a></li>
-              <li><a href="preguntas.html">Preguntas</a></li>
-              <li><a href="no-puedo-ir.html">No puedo ir</a></li>
-            </ul>
-          </nav>
+<!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/fonts-colors.css">
+  <link rel="stylesheet" href="styles/elements.css">
+
+<!-- JS -->
+  <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type='text/javascript' src='scripts/script.js'></script>
+</head>
+
+<body class="align-center">
+
+<!-- NAV CERRADO-->
+  <nav id="nav-movil-wrap">
+    <ul id="nav-wrap">
+      <li id="nav-item-1"><a href="index.html"><img src="img/nav-logo-blue.svg"></a></li>
+      <li id="nav-item-2"><div id="nav-icon3"><span></span><span></span><span></span><span></span></div></li>
+    </ul>
+  </nav>
+
+<!-- NAV DESPLEGADO-->
+  <nav id="menu-desplegado" class="">
+    <ul id="menu-list-enlaces" class="padding-movil">
+      <li><a href="horas-sitios.html">Sitios&Horas</a></li>
+      <li><a href="preguntas.html">Preguntas que no os dejan dormir</a></li>
+      <li><a href="confirmacion.html">Confirmar asistencia</a></li>
+    </ul>
+   </nav>
 
           
 
@@ -82,7 +80,7 @@
 
             <!--SECTION CEREMONIA-->
 
-            <section id="section">
+            <section id="section" class="ceremonia">
               <div id="card-wrap">
                 <div id="separador-wrap" class="padding-movil separador-wrap-sticky"><div id="separador"></div></div>         
                 <div id="card-title" class="padding-movil card-title-sticky"><h3>Ceremonia</h3></div>
@@ -98,7 +96,7 @@
                   </div>
                   <div id="card-detalles" class="padding-top-12">
                     <div id="card-detalles-icon-wrap" class=""><img id="icon-wrap" src="img/icon-pin.svg"></div>
-                    <p><a target=”_blank” href="https://goo.gl/maps/u65ibYWBHu1k1pQo7"><span class="destacado">Paseo de las Chopera, 6-10</span></a><br> (Metro Legazpi)</p>
+                    <p><a target=”_blank” href="https://goo.gl/maps/u65ibYWBHu1k1pQo7"><span class="destacado">Paseo de laº Chopera, 6-10</span></a><br> (Metro Legazpi)</p>
                   </div>
                 </div> 
                 <div id="card-img-wrap" class="8"><img id="card-img" src="img/mapas/ceremonia.png"></div>
@@ -108,7 +106,7 @@
 
             <!--SECTION COMIDA-->
 
-            <section id="section">
+            <section id="section" class="comida">
               <div id="card-wrap">
                 <div id="separador-wrap" class="padding-movil separador-wrap-sticky"><div id="separador"></div></div>         
                 <div id="card-title" class="padding-movil card-title-sticky"><h3>Comida</h3></div>
@@ -133,7 +131,7 @@
 
             <!--SECTION FIESTA-->
 
-            <section id="section">
+            <section id="section" class="fiesta">
               <div id="card-wrap">
                 <div id="separador-wrap" class="padding-movil separador-wrap-sticky"><div id="separador"></div></div>         
                 <div id="card-title" class="padding-movil card-title-sticky"><h3>Fiesta</h3></div>
