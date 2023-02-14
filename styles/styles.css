@@ -132,6 +132,9 @@ a{
   text-decoration: none;
 }
 
+#boton-navegacion-wrap:hover{
+  cursor: pointer;
+}
 
 html {
   scroll-behavior: smooth;
