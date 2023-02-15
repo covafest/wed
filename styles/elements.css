@@ -416,11 +416,10 @@
   }
 
   .imagen-pregunta {
-    height: 200px;
     background-color: var(--rosa);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-image:0 10px 10 0;
 
     border-radius: 6px;
@@ -428,12 +427,25 @@
 
   .quemepongo {
     background-image: url('../img/gifs/sam-smith.jpg');
+    height: 300px;
   }
 
   .cena {
     background-image: url('../img/gifs/paquita-comida.png');
+    height: 200px;
   }
 
   .desplazamiento {
     background-image: url('../img/gifs/correr.jpeg');
+    height: 200px;
+  }
+
+  .horario {
+    background-image: url('../img/gifs/fiesta.jpg');
+    height: 200px;
+  }
+
+  .osito {
+    background-image: url('../img/gifs/oso.jpg');
+    height: 300px;
   }
