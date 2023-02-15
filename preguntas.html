@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<!-- METADATOS -->  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A&C | ¡Que me casooo!</title>
+
+<!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/fonts-colors.css">
+  <link rel="stylesheet" href="styles/elements.css">
+
+<!-- JS -->
+  <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type='text/javascript' src='scripts/script.js'></script>
+  
+</head>
+
+<body class="align-center">
+
+  <!-- NAV CERRADO-->
+  <nav id="nav-movil-wrap">
+    <ul id="nav-wrap">
+      <li id="nav-item-1"><a href="index.html"><img src="img/nav-logo-blue.svg"></a></li>
+      <li id="nav-item-2"><div id="menu-icono"><span></span><span></span><span></span><span></span></div></li>
+    </ul>
+  </nav>
+
+  <!-- NAV DESPLEGADO-->
+  <nav id="menu-desplegado" class="">
+    <ul id="menu-list-enlaces" class="padding-movil">
+      <li><a href="horas-sitios.html">Sitios&Horas</a></li>
+      <li><hr></li>
+      <li><a href="preguntas.html">Preguntas que no <br>os dejan dormir</a></li>
+      <li><hr></li>
+      <li><a href="confirmacion.html">Confirmar asistencia</a></li>
+    </ul>
+   </nav>
+
+  <!--ARTICLE-->
+  <article id="article-wrap">  
+
+    <!--TITULO ARTICLE-->
+    <div id="article-title-wrap" class="padding-top-100">
+      <h2>Para las<br>ansiosas</h2>
+    </div>
+
+    <p class="padding-movil" >Seis preguntas que <br>no os dejan dormir:</p>
+
+    <!--SECTION CEREMONIA-->
+    <section id="section" class="padding-movil padding-top-20">
+      <ul class="accordion-list"> 
+        <li>
+          <h4 id="pregunta" class="">¿Qué me pongo?</h4>
+          <img id="icono-pregunta" class="icono-pregunta" src="img/icon-flecha-abajo-black.svg">
+
+          <div class="answer">
+            <div class="imagen-pregunta quemepongo"></div>
+            <p class="padding-top-20">Sois todas unas tías guapísimas, no importa qué llevéis puesto.</p>
+            <p class="padding-top-12">Nos planteamos el día como una comida en familia, ponéos aquello que os haga sentir bien.</p>
+          </div>
+          <div id="separador-wrap-preguntas" class=""><div id="separador-preguntas"></div></div>         
+        </li>
+
+        <li>
+          <h4 id="pregunta" class="">¿Habrá cena?</h4>
+          <img id="icono-pregunta" class="icono-pregunta" src="img/icon-flecha-abajo-black.svg">
+  
+          <div class="answer">
+            <div class="imagen-pregunta cena"></div>
+            <p class="padding-top-20">No has comido y ya estás pensando en cenar. Siempre en tu equipo.</p>
+            <p class="padding-top-12">Sobre las 18:30 nos pondrán algo para picar a modo de merienda-cena.</p>
+          </div>
+          <div id="separador-wrap-preguntas" class=""><div id="separador-preguntas"></div></div>         
+        </li>
+
+
+        <li>
+          <h4 id="pregunta" class="">¿Cómo iremos al restaurante?</h4>
+          <img id="icono-pregunta" class="icono-pregunta" src="img/icon-flecha-abajo-black.svg">
+  
+          <div class="answer">
+            <div class="imagen-pregunta desplazamiento"></div>
+            <p class="padding-top-20">Nuestra idea es ir en metro. Iremos algo justos de tiempo, lo que nos devuelve a la primera pregunta: '¿Qué me pongo?'</p>
+            <p class="padding-top-12">Algo cómodo, amiga.<br>Vas a tener que correr.</p>
+          </div>
+          <div id="separador-wrap-preguntas" class=""><div id="separador-preguntas"></div></div>         
+        </li>
+
+        <li>
+          <h4 id="pregunta" class="">¿A qué hora terminamos?</h4>
+          <img id="icono-pregunta" class="icono-pregunta" src="img/icon-flecha-abajo-black.svg">
+  
+          <div class="answer">
+            <div class="imagen-pregunta desplazamiento"></div>
+            <p class="padding-top-20">Del restaurante nos tenemos que ir a las 19:30, después iremos a tomar algo.</p>
+            <p class="padding-top-12">En principio el local está cerrado para nosotros hasta las 00:00.
+            </p>
+          </div>
+          <div id="separador-wrap-preguntas" class=""><div id="separador-preguntas"></div></div>         
+        </li>
+    </section>
+  </article>
+  
+  <!--ARRIBA -->
+    <div id="boton-navegacion-wrap" class="arriba navegacion">
+      <img id="boton-navegacion-texto" src="img/icon-flecha-up-black.svg">
+      <p>Volver arriba</p>
+    </div>
+</body>
+
+<!--FOOTER-->
+<footer id="footer-movil-wrap" class="fixed">
+  <ul id="footer-wrap">
+    <li id="footer-item"><a href="#"><img src="img/nav-logo-blanco.svg"></a></li>
+    <li id="footer-item"><div class=""><p class="subtitulo">15 | abril | 23 – Madrid</p></div></li>
+  </ul>
+</footer>
+
+</html>

@@ -208,6 +208,8 @@
 #article-title-wrap {
   background-color: var(--blanco);
   width: 100%;
+
+  padding-bottom: 10px;
 }
 
 .article-title-wrap-sticky{
@@ -228,8 +230,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  height: 2px;
+  justify-content: flex-start;
 
   background-color: var(--blanco);
 
@@ -237,8 +238,11 @@
 .separador-wrap-sticky{
   display: flex;
   position:sticky;
-  top: 172px;
+  top: 174px;
   z-index: 8;
+
+  padding-top: 2px; 
+  padding-bottom: 10px;
 }
 
 #card-title{
@@ -246,10 +250,9 @@
 }
 
 .card-title-sticky{
-  padding-top: 16px;
   padding-bottom: 16px;
   position:sticky;
-  top: 190px;
+  top: 187px;
   z-index: 7;
 }
 
@@ -266,7 +269,6 @@
 #card-parrafo {
   background-color: var(--blanco);
   padding-top: 20px;
-
 }
 
 #card-detalles-wrap {
@@ -316,7 +318,7 @@
 
 #footer-movil-wrap {
   background-color: var(--azul);
-  bottom:              0;
+  bottom:           0;
   width:            100%;
   left:             0;
   padding-top:      8px;
@@ -358,4 +360,80 @@
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
+  }
+
+  /* PREGUNTAS */
+
+  ul.accordion-list {
+    list-style: none;
+
+  }
+    
+  ul.accordion-list li {
+  background-color: #FFF;
+  cursor: pointer;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  }
+      
+  div.answer {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  }
+
+  #separador-preguntas {
+    background-color: var(--azul);
+    width: 200px;
+    height: 1px;
+  }
+  
+  #separador-wrap-preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  
+    background-color: var(--blanco);
+  
+  }
+
+  #icono-pregunta {
+    width: 16px;
+    transition: all .6s;
+  }
+
+  .rotar {
+    transform: rotate(-180deg);
+  }
+
+  .imagen-pregunta img{
+    width: 100%;
+    height: 150px;
+    border: solid;
+  }
+
+  .imagen-pregunta {
+    height: 200px;
+    background-color: var(--rosa);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:0 10px 10 0;
+
+    border-radius: 6px;
+  }
+
+  .quemepongo {
+    background-image: url('../img/gifs/sam-smith.jpg');
+  }
+
+  .cena {
+    background-image: url('../img/gifs/paquita-comida.png');
+  }
+
+  .desplazamiento {
+    background-image: url('../img/gifs/correr.jpeg');
   }
