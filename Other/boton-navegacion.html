@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/fonts-colors.css">
+  <link rel="stylesheet" href="styles/animaciones.css">
+
+<style>
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#boton-navegacion-wrap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  }
+  
+  #boton-navegacion-texto{
+  line-height:        100%;
+  font-weight:        100;
+  }
+  
+  .volver {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+  }
+
+  #boton-navegacion-wrap img {
+    height: 16px;
+  }
+
+</style>
+</head>
+
+<body class="align-center">
+
+<div id="wrap">
+
+  <!-- MAS INFO -->
+  <div id="boton-navegacion-wrap" class="arriba navegacion">
+    <a href="#" id="boton-navegacion-texto"><p class="">+ Info</p></a>
+    <img id="boton-navegacion-texto" class="" src="img/icon-flecha-down-black.svg">
+  </div>
+
+  <!-- ARRIBA -->
+  <div id="boton-navegacion-wrap" class="arriba navegacion">
+    <img id="boton-navegacion-texto" class="" src="img/icon-flecha-up-black.svg">
+    <a href="#top" id="boton-navegacion-texto"><p class="">Arriba</p></a>
+  </div>
+
+  <!-- VOLVER -->
+  <div id="boton-navegacion-wrap" class="volver navegacion">
+    <div class="volver">
+      <img id="boton-navegacion-texto" class="" src="img/icon-flecha-izquierda-black.svg">
+      <a href="#" id="boton-navegacion-texto"><p class="">Volver</p></a>
+    </div>
+  </div>
+
+
+</div>
+
+</div>
+</body>
+</html>

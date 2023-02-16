@@ -372,16 +372,25 @@
   ul.accordion-list li {
   background-color: #FFF;
   cursor: pointer;
-  padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: all .5s;
+  border-radius: 8px;
+
   }
+
+  ul.accordion-list li.active {
+    background-color: RGBa(227, 238, 255, 0.3);
+    cursor: pointer;
+    }
       
   div.answer {
   margin: 0;
   padding: 0;
   cursor: pointer;
   padding-top: 10px;
-  padding-bottom: 20px;
   }
 
   #separador-preguntas {
@@ -395,13 +404,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-  
-    background-color: var(--blanco);
-  
+    padding-bottom: 12px;
   }
 
   #icono-pregunta {
-    width: 16px;
+    height: 16px;
     transition: all .6s;
   }
 
@@ -421,8 +428,7 @@
     background-size: cover;
     background-position: top;
     background-image:0 10px 10 0;
-
-    border-radius: 6px;
+    border-radius: 4px;
   }
 
   .quemepongo {
